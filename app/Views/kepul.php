@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/x-icon" href="kepul.png">
 	<title>Beranda Kepul</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -16,9 +17,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-	<style>
-
-	</style>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -47,10 +46,11 @@
 			<a href="kepul.php"><img class="img-fluid" alt="Responsive image" src="asset/foto/logo.png"></a>
 			<nav id="navbar" class="navbar">
 				<ul>
-					<li><a class="p3 nav-link active" href="#" style="background: white;">Beranda</a></li>
+					<li><a style="background: white;"  class="p3 nav-link active" href="http://localhost:8080/kepul.php" >Beranda</a></li>
 					<li><a class="p3 nav-link" href="#">Program</a></li>
-					<li><a class="p3 nav-link" href="#">Daftar Barang</a></li>
-					<li><a class="p3 nav-link" href="#">Tentang Kami</a></li>
+					<li><a class="p3 nav-link" href="http://localhost:8080/barang">Daftar Barang</a></li>
+					<li><a class="p3 nav-link " href="http://localhost:8080/tentang">Tentang Kami</a></li>
+					<li><button style="width: 35px; height: 35px;" class="button-1" role="button" onclick="window.location='trolley';"><img style="width: 32px; height: 32px;" src="asset/foto/shopping-cart.png" alt="Responsive image"></button></li>
 					<li><button class="button-79" role="button">Jual di Kepul</button></li>
 
 				</ul>
@@ -72,8 +72,8 @@
 					<a href="https://play.google.com/store/apps/details?id=com.kepulcorporation.kepul" 
 					class="button-1"><img style="width: 204px; height: 63.07px;" src="asset/foto/playstore.png"></a>
 				</div>
-				<div class="banner-img col-lg-4 col-md-6">
-					<div class="slideshow-container">
+				<div  class="banner-img col-lg-4 col-md-6">
+					<div data-aos="fade-up" data-aos-duration="1000" class="slideshow-container">
 						<div class="mySlides">
 							<img src="asset/foto/KepulWebIllustration_2.png" alt="">
 						</div>
@@ -112,7 +112,7 @@
 							60 jenis sampah-sampah organik dan non-organik</p>
 				</div>
 				<div class="col-lg-5 col-md-5">
-					<div class="circle">
+					<div data-aos="fade-up" data-aos-duration="1000" class="circle">
 						<div class="embed-responsive embed-responsive-16by9 video">
 							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QrVH5ivUGzc"
 								allowfullscreen></iframe>
@@ -133,7 +133,7 @@
 				</div>
 			</div>
 			<div class="row mt-5 mb-5">
-				<div class="col-md">
+				<div class="col-md" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card card1">
 						<img class="card-img-top" src="AsetCompanyKepul/CompanyAsset-Kepul_keunggulan-pioneer.png"
 							alt="Card image cap">
@@ -145,7 +145,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-md" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card card1">
 						<img class="card-img-top" src="AsetCompanyKepul/CompanyAsset-Kepul_keunggulan-profesi.png"
 							alt="Card image cap">
@@ -157,7 +157,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-md" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card card1">
 						<img class="card-img-top" src="AsetCompanyKepul/CompanyAsset-Kepul_keunggulan-30sampah.png"
 							alt="Card image cap">
@@ -171,7 +171,7 @@
 				</div>
 			</div>
 			<div class="row pt-4 mb-5">
-				<div class="col-md">
+				<div class="col-md" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card card1">
 						<img class="card-img-top" src="AsetCompanyKepul/CompanyAsset-Kepul_keunggulan-hargatinggi.png"
 							alt="Card image cap">
@@ -183,7 +183,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-md" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card card1">
 						<img class="card-img-top" src="AsetCompanyKepul/CompanyAsset-Kepul_keunggulan-freejemput.png"
 							alt="Card image cap">
@@ -194,7 +194,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md">
+				<div class="col-md" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card card1">
 						<img class="card-img-top" src="AsetCompanyKepul/CompanyAsset-Kepul_keunggulan-mudahcepat.png"
 							alt="Card image cap">
@@ -215,27 +215,27 @@
           <p class="h3" style="line-height: 20px; text-align: center; letter-spacing: 0.05em; margin-top: 70px;">Aplikasi</p>
         </div>
         	<div class="row justify-content-md-center">
-          		<div class="col-md-2">
+          		<div class="col-md-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="MockupAplikasi/01.png" alt="Responsive image">
           			<p class="h4">Jual Sampah</p>
           		</div>
 
-          		<div class="col-md-2">
+          		<div class="col-md-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="MockupAplikasi/04.png" alt="Responsive image">
           			<p class="h4">Harga Real Time</p>
           		</div>
 
-          		<div class="col-md-2">
+          		<div class="col-md-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="MockupAplikasi/05.png" alt="Responsive image">
           			<p class="h4">Transaksi Terdata</p>
           		</div>
 
-          		<div class="col-md-2">
+          		<div class="col-md-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="MockupAplikasi/06.png" alt="Responsive image">
           			<p class="h4">Layanan Komunitas</p>
           		</div>
 
-          		<div class="col-md-2">
+          		<div class="col-md-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="MockupAplikasi/07.png" alt="Responsive image">
           			<p class="h4">Rangkuman Transaksi</p>
           		</div>
@@ -252,22 +252,22 @@
       <div class="container mb-5">
 			<p class="h3" style="line-height: 15px; text-align: center; letter-spacing: 0.03em; margin-top:87px; margin-bottom:60px;">Program Kami</p>
         	<div class="row justify-content-center">
-          		<div class="col-2">
+          		<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_program-sedekahsampah.png" alt="Responsive image">
           		</div>
-          		<div class="col-2">
+          		<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_program-sekolahsampah.png" alt="Responsive image">
           		</div>
-          		<div class="col-2">
+          		<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_program-baitullah.png" alt="Responsive image">
           		</div>
-          		<div class="col-2">
+          		<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_program-listriksampah.png" alt="Responsive image">
           		</div>
-          		<div class="col-2">
+          		<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_program-bpjssampah.png" alt="Responsive image">
           		</div>
-          		<div class="col-2">
+          		<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
           			<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_program-bpjssampah.png" alt="Responsive image">
           		</div>
           </div>
@@ -280,44 +280,44 @@
 			<p class="p8" style="margin-top: 70px; margin-bottom: 24px;">Publikasi Kepul</p>
 			<p class="h3" style="line-height: 15px; text-align: center; letter-spacing: 0.03em;">Liputan Media</p>
 			<div class="row justify-content-center" style="margin-top:24px;">
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-trans7.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-metrotv.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-kompastv.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-narasi.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-kumparan.png" alt="Responsive image">
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-suara.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-tvri.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-daaitv.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-analisa.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-tribun.png" alt="Responsive image">
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-sindonews.png" alt="Responsive image">
 				</div>
-				<div class="col-2">
+				<div class="col-2" data-aos="fade-up" data-aos-duration="1000">
 					<img class="img-fluid img1" src="AsetCompanyKepul/CompanyAsset-Kepul_media-merdeka.png" alt="Responsive image">
 				</div>
 			</div>
@@ -325,7 +325,7 @@
 	</section>
 
 
-	<section id="iklan" class="iklan"  style="background: #007AFF;">
+	<section id="iklan" class="iklan"  style="background: #007AFF;" data-aos="fade-right" data-aos-duration="2000">
 		<div class="container">
 			<div class="row">
 				<div class="col-5">
@@ -407,10 +407,10 @@
 						y2.classList.toggle('hide1-close');
 					}
 					function myFunction3() {
-						var x2 = document.getElementById("div3-open");
-						var y2 = document.getElementById("div3-close");
-						x2.classList.toggle('hide1-open');
-						y2.classList.toggle('hide1-close');
+						var x3 = document.getElementById("div3-open");
+						var y3 = document.getElementById("div3-close");
+						x3.classList.toggle('hide1-open');
+						y3.classList.toggle('hide1-close');
 					}
 					</script>
 				</div>
@@ -439,26 +439,26 @@
 					</div>
 				</div>
 				<div class="col-2">
-					<p class="p10" style="margin-bottom: 26px;">Telusuri</p>
+					<p class="h6" style="margin-bottom: 26px;">Telusuri</p>
 					<a href="#pertanyaan" class="p11">FAQ</a><br>
 					<a href="#" class="p11">Tentang Kami</a><br>
 					<a href="#" class="p11">Projek</a><br>
 				</div>
 				<div class="col-2">
-					<p class="p10" style="margin-bottom: 26px;">Karir</p>
+					<p class="h6" style="margin-bottom: 26px;">Karir</p>
 					<a href="#" class="p11">Mikro Driver</a><br>
 					<a href="#" class="p11">Mikro Usaha</a><br>
 					<a href="#" class="p11">Internship</a><br>
 					<a href="#" class="p11">Lowongan</a><br>
 				</div>
 				<div class="col-2">
-					<p class="p10" style="margin-bottom: 26px;">Kontak</p>
+					<p class="h6" style="margin-bottom: 26px;">Kontak</p>
 					<p class="p11" style="margin-bottom: 0px;">hello@kepul.id</p>
 					<a href="#" class="p11">Tentang</a><br>
 					<p class="p11">+6285373474968</p>
 				</div>
 				<div class="col-2">
-					<p class="p10" style="margin-bottom: 26px;">Download</p>
+					<p class="h6" style="margin-bottom: 26px;">Download</p>
 					<a href="https://play.google.com/store/apps/details?id=com.kepulcorporation.kepul" 
 					class="button-1"><img style="width: 150px; height: 45.76px;" src="asset/foto/playstore.png"></a>
 					<div class="row" style="margin-top: 20px; margin-left: 0px;">
@@ -493,9 +493,6 @@
 	
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script>
-		AOS.init();
-	</script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
@@ -507,7 +504,10 @@
 		crossorigin="anonymous"></script>
 	<!-- Template Main JS File -->
 	<script src="asset/js/main.js"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 
 </body>
 

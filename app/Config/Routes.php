@@ -24,6 +24,7 @@ $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
 
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -34,7 +35,11 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/about', 'Home::about');
-
+$routes->get('/barang', 'Home::barang');
+$routes->get('/tentang', 'Home::tentang');
+$routes->get('/trolley', 'Home::trolley');
+$routes->get('/login', 'Home::login');
+$routes->get('/signup', 'Home::signup');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
